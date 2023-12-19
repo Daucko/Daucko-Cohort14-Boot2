@@ -1,0 +1,77 @@
+/* First Card Styling Start */
+.socBtns {
+  display: flex;
+  margin-top: 40px;
+}
+
+.socBtns svg {
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: 8px 0 0 8px;
+}
+
+.socBtns span {
+  width: 40px;
+  height: 40px;
+  /* padding: 10px 10px 15px; */
+  /* border: 2px solid red; */
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.cardBody {
+  background: linear-gradient(to top right, #c848a0, #9870e8);
+  width: 92%;
+  height: 40% !important;
+  margin: -17px auto 0;
+  border-radius: 5px;
+  padding-top: 10px;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.3);
+}
+
+.cardFooter {
+  width: 100%;
+}
+
+.fstCard {
+  height: 97% !important;
+  margin-top: 16px !important;
+}
+/* First Card Styling End  */
+
+/* Second Card Social Buttons Styling Start  */
+.socBtns2 {
+  display: flex;
+  margin-top: 20px;
+}
+
+.socBtns2 svg {
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: 8px 0 0 8px;
+  /* padding-top: 10px; */
+}
+
+.socBtns2 span {
+  width: 40px;
+  height: 40px;
+  /* padding: 10px 10px 15px; */
+  /* border: 2px solid red; */
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.socBtns2 span:nth-child(1) {
+  background-color: #1877f2;
+}
+
+.socBtns2 span:nth-child(2) {
+  background-color: #1da1f2;
+}
+
+.socBtns2 span:nth-child(3) {
+  background-color: #db4a39;
+}
+/* Second Card Social Buttons Styling End  */
